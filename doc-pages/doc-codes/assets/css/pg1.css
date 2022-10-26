@@ -1,0 +1,91 @@
+body {
+  background-color: #D9D9D9;
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+fieldset {
+  background-color: #000;
+  color: #D9D9D9;
+  padding: 3px 6px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+legend {
+  background-color: #41C7F2;
+  color: #000000;
+  height: 20px;
+}
+
+input {
+  margin: .5rem;
+} 
+
+
+.dropbtn {
+    background-color: #F2114C;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: .2rem;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #A6143A;
+    margin: .2rem;
+    
+
+  }
+  
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
